@@ -1,0 +1,12 @@
+.card {
+    height: 100px;
+    width: 100px;
+    border: 2px solid rebeccapurple;
+    margin: 0 10px;
+}
+.card:hover {
+    cursor: pointer;
+}
+.card-title {
+    font-weight: 600;
+}
