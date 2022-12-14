@@ -13,6 +13,13 @@ const Main = () => {
         cardsCopy.forEach(card => card.clicked = false);
         setCards(cardsCopy);
     }
+    const shuffleCards = (array) => {
+        for (let i = array.length - 1; i > 0; i--) {
+            let j = Math.floor(Math.random() * (i+1));
+            [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+    }
     const findCardIndex = (e) => {
         return cards.findIndex(card => card.id === e.target.id);
     }
@@ -21,19 +28,17 @@ const Main = () => {
         const cardsCopy = [...cards];
         if (!clicked) {
             cardsCopy[index].clicked = true;
-            setCards(cardsCopy);
+            setCards(shuffleCards(cardsCopy));
             setScore(score + 1);
         } else if (clicked) {
             console.log('Game Over!');
             clearClicks();
             setScore(0);
-
         } else {
             console.log('Something aint right... :(');
         }
     }
     const cardClick = (e) => {
-        console.log(e.target);
         const cardIndex = findCardIndex(e);
         checkCard(cardIndex);
         console.log(cards);
