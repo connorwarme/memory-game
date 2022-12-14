@@ -1,0 +1,11 @@
+.header-container {
+    background-color: rgb(204, 6, 44);
+    color: #14428C;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+.header-title {
+    font-size: 50px;
+}

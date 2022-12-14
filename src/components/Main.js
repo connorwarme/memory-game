@@ -22,7 +22,7 @@ const Main = () => {
         return array;
     }
     const findCardIndex = (e) => {
-        return cards.findIndex(card => card.id === e.target.id);
+        return cards.findIndex(card => card.id === e.target.parentElement.id);
     }
     const checkCard = (index) => {
         const clicked = cards[index].clicked;
@@ -41,6 +41,7 @@ const Main = () => {
     }
     const cardClick = (e) => {
         const cardIndex = findCardIndex(e);
+        console.log(cardIndex);
         checkCard(cardIndex);
         console.log(cards);
     }
