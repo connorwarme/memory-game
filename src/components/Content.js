@@ -1,5 +1,7 @@
 import { v4 as uuidv4 } from "uuid";
 
+// logos from https://www.sportslogos.net/teams/list_by_league/6/National_Basketball_Association/NBA/logos/
+
 const content = [
     {
         title: 'card 1',
