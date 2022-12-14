@@ -1,7 +1,8 @@
 .card {
-    height: 100px;
-    width: 100px;
-    border: 2px solid rebeccapurple;
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkslategray;
+    border-radius: 3px;
     margin: 0 10px;
 }
 .card:hover {
