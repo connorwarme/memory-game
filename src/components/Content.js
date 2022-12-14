@@ -4,35 +4,135 @@ import { v4 as uuidv4 } from "uuid";
 
 const content = [
     {
-        title: 'card 1',
+        title: 'Atlanta Hawks',
         id: uuidv4(),
         clicked: false,
      },
      {
-        title: 'card 2',
+        title: 'Boston Celtics',
         id: uuidv4(),
         clicked: false,
      },
      {
-        title: 'card 3',
+        title: 'Brooklyn Nets',
         id: uuidv4(),
         clicked: false,
      },
      {
-        title: 'card 4',
+        title: 'Charlotte Hornets',
         id: uuidv4(),
         clicked: false,
      },
      {
-        title: 'card 5',
+        title: 'Chicago Bulls',
         id: uuidv4(),
         clicked: false,
      },
      {
-        title: 'card 6',
+        title: 'Cleveland Cavaliers',
         id: uuidv4(),
         clicked: false,
-     }
+     },
+     {
+      title: 'Dallas Mavericks',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Denver Nuggets',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Detroit Pistons',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Golden State Warriors',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Houston Rockets',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Indiana Pacers',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Los Angeles Clippers',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Los Angeles Lakers',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Memphis Grizzlies',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Miami Heat',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Milwaukee Bucks',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: 'Minnesota Timberwolves',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   },
+   {
+      title: '',
+      id: uuidv4(),
+      clicked: false,
+   }
 ];
 
 export default content;

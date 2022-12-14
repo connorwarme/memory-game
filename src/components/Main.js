@@ -6,6 +6,7 @@ import "../styles/Main.css";
 
 const Main = () => {
     const [score, setScore] = useState(0);
+    const [initialCards, setInitial] = useState(content);
     const [cards, setCards] = useState(content);
 
     const clearClicks = () => {
