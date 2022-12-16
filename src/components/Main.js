@@ -6,6 +6,7 @@ import "../styles/Main.css";
 
 const Main = () => {
     const [score, setScore] = useState(0);
+    const [bestScore, setBestScore] = useState(0);
     const [initialCards, setInitial] = useState(content);
     const [cards, setCards] = useState(content);
 
@@ -24,13 +25,20 @@ const Main = () => {
     const findCardIndex = (e) => {
         return cards.findIndex(card => card.id === e.target.parentElement.id);
     }
+    const updateBestScore = (updatedScore) => {
+        if (updatedScore > bestScore) {
+            setBestScore(updatedScore);
+        }
+    }
     const checkCard = (index) => {
         const clicked = cards[index].clicked;
         const cardsCopy = [...cards];
         if (!clicked) {
             cardsCopy[index].clicked = true;
             setCards(shuffleCards(cardsCopy));
-            setScore(score + 1);
+            const updatedScore = score + 1;
+            setScore(updatedScore);
+            updateBestScore(updatedScore);
         } else if (clicked) {
             console.log('Game Over!');
             clearClicks();
@@ -47,7 +55,10 @@ const Main = () => {
     }
     return(
         <div className="main-content">
-            <div className="scoreboard-container">Score: {score}</div>
+            <div className="scoreboard-container">
+                <div>Score: {score}</div>
+                <div>Best Score: {bestScore}</div>
+            </div>
             <div className="card-container">
                 {cards.map(card => {
                     return <Card key={card.id} data={card} select={cardClick}/>
