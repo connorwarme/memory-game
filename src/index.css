@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'Faustina';
+  src: url(./styles/Faustina-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Russo';
+  src: url(./styles/RussoOne-Regular.ttf) format('truetype');
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Faustina', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
