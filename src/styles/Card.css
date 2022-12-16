@@ -16,7 +16,7 @@
     font-weight: 600;
 }
 
-@media (max-width: 900) {
+@media (max-width: 900px) {
     .card {
         height: 70px;
         width: 100px;
@@ -25,5 +25,32 @@
         height: 50px;
         width: 75px;
     }
-    
+}
+@media (max-width: 500px) { 
+    .card {
+        height: 50px;
+        width: 75px;
+        margin: 10px 5px 0 5px;
+    }
+    .card > img {
+        height: 50px;
+        width: 75px;
+    }
+    .card-title {
+        display: none;
+    }
+}
+@media (max-width: 380px) {
+    .card {
+        height: 37.5px;
+        width: 56px;
+        margin: 5px 3px;
+    }
+    .card > img {
+        height: 37.5px;
+        width: 56px;
+    }
+    .card-title {
+        display: none;
+    }
 }

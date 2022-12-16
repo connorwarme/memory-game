@@ -4,3 +4,15 @@
 .linkContainer > a > img {
     height: 25px;
 }
+@media (max-width: 500px) {
+    .footer {
+        margin: 5px 0;
+    }   
+    .linkContainer > a > img {
+        height: 20px;
+        margin: 0 5px;
+    }
+    .textContainer {
+        font-size: 12px;
+    }
+}

@@ -12,9 +12,20 @@
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 900) {
+@media (max-width: 900px) {
     .card-container{
         width: 750px;
     }
-    
+}
+@media (max-width: 500px) {
+    .card-container {
+        width: 460px;
+        gap: 0;
+    }
+}
+@media (max-width: 380px) {
+    .card-container {
+        width: 320px;
+        gap: 0;
+    }
 }

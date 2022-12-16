@@ -18,3 +18,29 @@
     background-color: rgb(204, 6, 44);
     color: #14428C;
 }
+@media (max-width: 900px) {
+    .header-title {
+        font-size: 32px;
+    }
+}
+@media (max-width: 500px) {
+    .header-title {
+        font-size: 18px;
+    }
+    .logo-container > img {
+        height: 50px;
+        width: 75px;
+    }
+}
+@media (max-width: 380px) {
+    .title-container {
+        justify-content: flex-start;
+    }
+    .header-title {
+        font-size: 16px;
+    }
+    .logo-container > img {
+        height: 50px;
+        width: 75px;
+    }
+}

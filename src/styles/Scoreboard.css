@@ -25,6 +25,38 @@
     border-bottom-right-radius: 5px;
     padding: 5px 15px;
 }
-.score-container > div {
+@media (max-width: 500px) {
+    .scoreboard {
+        padding: 5px 0;
+    }
+    .scoreboard-instructions {
+        font-size: 12px;
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    .score-container {
+        padding: 0 10px;
+        margin: 0 10px;
+    }
+    .score-container > div {
+        font-size: 12px;
+    }
+}
 
+@media (max-width: 380px) {
+    .scoreboard {
+        padding: 5px 0;
+    }
+    .scoreboard-instructions {
+        font-size: 12px;
+        padding: 0 25px;
+        margin: 0 10px;
+    }
+    .score-container {
+        padding: 0 5px;
+        margin: 0 10px;
+    }
+    .score-container > div {
+        font-size: 12px;
+    }
 }
