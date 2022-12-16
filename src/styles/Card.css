@@ -26,6 +26,21 @@
         width: 75px;
     }
 }
+@media (max-width: 750px) { 
+    .card {
+        height: 75px;
+        width: 75px;
+        margin: 10px 5px 0 5px;
+    }
+    .card > img {
+        height: 50px;
+        width: 75px;
+    }
+    .card-title {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
 @media (max-width: 500px) { 
     .card {
         height: 50px;

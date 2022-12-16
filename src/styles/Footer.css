@@ -1,4 +1,10 @@
 .footer {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footerContent {
     margin: 15px 0 10px 0;
 }
 .linkContainer > a > img {
