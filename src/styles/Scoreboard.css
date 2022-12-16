@@ -1,0 +1,21 @@
+.scoreboard {
+    background-color: rgb(204, 6, 44);
+    border-top: 4px solid #14428C;
+    border-bottom: 4px solid #14428C;
+    display: flex;
+    flex-direction: column;
+}
+.scoreboard-instructions {
+    padding: 10px;
+}
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score-container > div {
+    padding: 7px;
+    margin: 3px 25px 3px 25px;
+    background-color: rgb(252, 254, 252);
+    border-radius: 4px;
+}

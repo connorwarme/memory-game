@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
+import Scoreboard from "./Scoreboard";
 import content from "./Content";
 import "../styles/Main.css";
 
@@ -53,12 +54,13 @@ const Main = () => {
         checkCard(cardIndex);
         console.log(cards);
     }
+    const scores = {
+        score: score,
+        bestScore: bestScore,
+    }
     return(
         <div className="main-content">
-            <div className="scoreboard-container">
-                <div>Score: {score}</div>
-                <div>Best Score: {bestScore}</div>
-            </div>
+            <Scoreboard scores={scores} />
             <div className="card-container">
                 {cards.map(card => {
                     return <Card key={card.id} data={card} select={cardClick}/>

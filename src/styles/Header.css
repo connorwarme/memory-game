@@ -1,11 +1,15 @@
 .header-container {
-    background-color: rgb(204, 6, 44);
-    color: #14428C;
+    margin: 5px 0;
 }
 .title-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .header-title {
     font-size: 50px;
+}
+.colors {
+    background-color: rgb(204, 6, 44);
+    color: #14428C;
 }
