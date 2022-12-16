@@ -1,8 +1,14 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    gap: 20px;
+    align-self: center;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    width: 900px;
     justify-content: center;
     align-items: center;
-    margin: 50px;
 }

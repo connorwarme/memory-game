@@ -1,12 +1,17 @@
 .card {
-    height: 150px;
-    width: 150px;
+    height: 95px;
+    width: 110px;
     border-radius: 3px;
-    margin: 0 10px;
+    margin: 10px;
 }
-.card:hover {
+.card > img {
+    height: 75px;
+    width: 105px;
+}
+.card > img:hover {
     cursor: pointer;
 }
 .card-title {
+    font-size: 14px;
     font-weight: 600;
 }
