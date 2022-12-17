@@ -25,7 +25,7 @@ const Scoreboard = ({ scores }) => {
                 <div className="scoreboard-instructions">{instructions}</div>
                 <div className="score-container">
                     <div>Your Score: {scores.score}</div>
-                    <div>Fan Ranking: {getRanking(scores.score)}</div>
+                    <div>Fan Ranking: <strong>{getRanking(scores.score)}</strong></div>
                     <div>Best Score: {scores.bestScore}</div>
                 </div>
             </div>

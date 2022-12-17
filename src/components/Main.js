@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { v4 as uuidv4 } from "uuid";
 import Card from "./Card";
 import Scoreboard from "./Scoreboard";
 import content from "./Content";
@@ -8,7 +7,6 @@ import "../styles/Main.css";
 const Main = () => {
     const [score, setScore] = useState(0);
     const [bestScore, setBestScore] = useState(0);
-    const [initialCards, setInitial] = useState(content);
     const [cards, setCards] = useState(content);
 
     const clearClicks = () => {
@@ -41,7 +39,6 @@ const Main = () => {
             setScore(updatedScore);
             updateBestScore(updatedScore);
         } else if (clicked) {
-            console.log('Game Over!');
             clearClicks();
             setScore(0);
         } else {
@@ -50,9 +47,7 @@ const Main = () => {
     }
     const cardClick = (e) => {
         const cardIndex = findCardIndex(e);
-        console.log(cardIndex);
         checkCard(cardIndex);
-        console.log(cards);
     }
     const scores = {
         score: score,
