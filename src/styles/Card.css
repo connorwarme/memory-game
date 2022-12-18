@@ -7,9 +7,15 @@
 .card > img {
     height: 75px;
     width: 105px;
+    border-radius: 3px;
+    transition-duration: 200ms;
 }
 .card > img:hover {
     cursor: pointer;
+}
+.card > img:active {
+    transform: scale(0.98);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
 .card-title {
     font-size: 14px;

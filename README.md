@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# [Memory: NBA Edition!](https://connorwarme.github.io/memory-game/)  
+![preview](https://github.com/connorwarme/memory-game/blob/main/screenshots/main.png?raw=true "preview main")  
+  
+* test your fandom! To score, click on a team logo. But you're only allowed to click on each logo one time! Best possible score is 30 - legendary. How do you rank?  
+  
+## objectives  
+* use React w/ functional components, hooks  
+* make it responsive for various screen sizes  
+* a project built for The Odin Project: Full-Stack Javascript course
+  
+## reflections  
+* the first time that a project has just "clicked" - made sense, felt intuitive to create and implement, which I found encouraging!  
+* curious to hear others' feedback, feel free to shoot a message 
+  
+## screenshots  
+* mobile screen display    
+![mobile](https://github.com/connorwarme/memory-game/blob/main/screenshots/mobile.png?raw=true "mobile")   
+* in action! (tablet size)   
+![action](https://github.com/connorwarme/memory-game/blob/main/screenshots/action.png?raw=true "action")  
+  
+## improvements  
+* open to ideas, let me know!  
+  
+  
+# Getting Started with Create React App  
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
