@@ -1,12 +1,12 @@
 # [Memory: NBA Edition!](https://connorwarme.github.io/memory-game/)  
 ![preview](https://github.com/connorwarme/memory-game/blob/main/screenshots/main.png?raw=true "preview main")  
   
-* test your fandom! To score, click on a team logo. But you're only allowed to click on each logo one time! Best possible score is 30 - legendary. How do you rank?  
+Test your fandom! To score, click on a team logo. But you're only allowed to click on each logo one time! Best possible score is 30 - legendary status. How do you rank?  
   
 ## objectives  
 * use React w/ functional components, hooks  
 * make it responsive for various screen sizes  
-* a project built for The Odin Project: Full-Stack Javascript course
+* a project built for The Odin Project: [Full-Stack Javascript](https://www.theodinproject.com/lessons/node-path-javascript-memory-card) course
   
 ## reflections  
 * the first time that a project has just "clicked" - made sense, felt intuitive to create and implement, which I found encouraging!  
